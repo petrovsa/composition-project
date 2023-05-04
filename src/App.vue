@@ -1,47 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
+import TheHeader from "./components/TheHeader.vue";
+import TheNav from "./components/TheNav.vue";
+
+ </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <TheHeader />
+  <main class="flex flex-grow flex-col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur numquam quos vero nam ea maxime hic in nobis architecto animi atque sapiente, aliquid, sunt iure temporibus doloribus reprehenderit! Dolores pariatur eveniet unde sint, blanditiis non, sed quam exercitationem distinctio consequuntur expedita facere nemo veritatis itaque? Aliquid aperiam nihil nobis deleniti commodi qui similique labore possimus ad saepe explicabo vitae, quo nemo ex tenetur, eos architecto fugiat dolorum expedita. Eveniet, corporis laboriosam repellendus cum minus iusto qui ex rerum commodi quasi? Voluptates, labore. Eius iure perferendis totam asperiores possimus laboriosam dolor aspernatur dignissimos repellat laborum tempore architecto magnam, mollitia dolorem necessitatibus porro sapiente consectetur eum id nemo vel ullam. Nisi odit officia commodi. Atque hic ad ipsa amet vitae ducimus beatae quis! Sint accusamus, autem tempore sit aliquid magnam modi natus nostrum nulla inventore. Quia obcaecati numquam commodi repellendus maiores quibusdam quos esse aspernatur id blanditiis hic sint minus facilis reiciendis odit eaque labore debitis minima recusandae fugiat, impedit perferendis fuga nisi. Aspernatur odio eos, beatae expedita dolores cumque quis ducimus ipsum praesentium quaerat optio. Nobis itaque facere laborum rerum eligendi libero blanditiis, modi cum illum cupiditate maiores saepe accusantium ullam voluptatibus asperiores dolorum aliquam reprehenderit dolores natus repellendus? Saepe pariatur dolorem quidem eligendi id! Quo consequuntur voluptas vero. Ab, quo? Nihil culpa, beatae dolorum sit inventore, iusto porro error quidem optio excepturi deserunt dicta reiciendis commodi? Libero quis culpa debitis earum, distinctio et porro a nihil, minima maxime obcaecati rerum delectus fugiat tempore magnam beatae possimus ipsa pariatur ducimus vitae, dignissimos fuga laudantium. Ut, pariatur temporibus enim repudiandae, eius nostrum voluptatem ad aliquid excepturi quam consequatur voluptatum reiciendis ipsam odio soluta saepe aspernatur amet et, autem quae? Sequi ad debitis nulla ratione quos numquam sint harum consectetur aliquid repellat a mollitia magni, asperiores vel exercitationem modi aspernatur, quibusdam voluptate quis inventore corporis quaerat optio tenetur? Deserunt doloribus quam maiores voluptatibus? Sapiente vero, nostrum architecto laboriosam in fugit voluptates incidunt, animi repudiandae magnam quo unde ab eum labore nobis dolor nisi. Exercitationem fugiat ipsam quas eveniet hic laborum illum, debitis veniam autem. Possimus eligendi, iste aliquam, voluptatum obcaecati cumque praesentium blanditiis animi eum amet nostrum numquam corrupti facere repudiandae doloremque labore veniam exercitationem assumenda rem totam omnis quas esse! Id commodi vero similique, earum mollitia porro fugiat repudiandae rem ipsa suscipit, fuga impedit repellendus. Voluptas voluptatem tempore distinctio laborum ipsam, blanditiis earum odio hic porro tempora placeat sequi temporibus natus ullam libero eveniet laboriosam velit! Voluptates totam, inventore laboriosam vero dolore molestias laborum obcaecati nostrum, omnis nobis consequatur aspernatur quia perferendis ex non est dicta tempore beatae itaque? Vel assumenda, dignissimos debitis quaerat quae ipsam atque ratione! Alias eveniet tempora esse maxime minima expedita corporis voluptatibus iusto odit qui omnis veritatis repudiandae iste nisi recusandae laborum dolorum culpa rerum itaque vel, excepturi quae. Aperiam rerum voluptatum blanditiis dolore ducimus eos vitae voluptates repellat distinctio enim ratione, quam totam natus aliquid vel! Recusandae repellat laboriosam, eveniet quis, vitae aspernatur delectus mollitia quod maxime ea tempore corrupti illo dolorem inventore. Itaque, corporis deleniti. </main>
+  <TheNav />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
